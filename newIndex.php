@@ -1,11 +1,11 @@
 <?php
 
 $nom = $_POST['nom'];
-$mail = "hortensere@aol.com";
+$mail = "";
 $sujet = "Test";
 $message ="Ceci est un test" ;
 
-$retour = mail('hortensere@aol.com', $sujet, $message);
+$retour = mail('', $sujet, $message);
 if ($retour){
     echo "Votre mail a bien été envoyé.";
 }
